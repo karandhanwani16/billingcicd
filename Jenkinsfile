@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        withCredentials([usernamePassword(credentialsId: 'git-creds', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
-          checkout scm
-        }
+        checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'd37352dc-20db-4025-abbc-3434a58d7d27', url: 'https://github.com/karandhanwani16/billingcicd.git']])
       }
     }
     stage('Build Image') {
