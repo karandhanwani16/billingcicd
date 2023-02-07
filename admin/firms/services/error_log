@@ -1,0 +1,4 @@
+[11-Jan-2023 12:17:34 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/firms/services/updateFirm.php on line 12
+[11-Jan-2023 12:17:34 UTC] PHP Notice:  Undefined index: user_type in /home/yashcons/public_html/billing/admin/firms/services/updateFirm.php on line 13
+[11-Jan-2023 17:47:34 Asia/Kolkata] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/services/helperFunctions.php on line 277
+[11-Jan-2023 17:47:34 Asia/Kolkata] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/services/helperFunctions.php on line 280

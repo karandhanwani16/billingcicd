@@ -1,0 +1,11 @@
+{
+    "roles": [{
+            "salescord": {
+                "accessList": []
+            }
+        },
+        {
+            "md": {}
+        }
+    ]
+}

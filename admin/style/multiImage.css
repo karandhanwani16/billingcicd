@@ -1,0 +1,123 @@
+.images--cont {
+  width: 100%;
+  height: 35vh;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+.image--slider {
+  height: 100%;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  width: auto;
+  position: relative;
+  z-index: 0;
+}
+.upload--btn {
+  height: 100%;
+  width: 35vh;
+  background: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+.upload--btn img,
+.upload--btn p {
+  position: relative;
+  z-index: 99;
+}
+.upload--btn img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+.upload--btn p {
+  font-size: 0.8rem;
+  letter-spacing: 5%;
+  font-weight: 600;
+}
+.upload--element {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: #555;
+  position: absolute;
+  z-index: 999;
+}
+.upload--image {
+  position: relative;
+  flex-shrink: 0;
+  height: 100%;
+  width: 35vh;
+  border-radius: 10px;
+  margin-left: 16px;
+}
+.upload--image:nth-child(1) {
+  margin-left: calc(35vh + 8px);
+}
+.upload--image img {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.image--del {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 100%;
+}
+.image--del img {
+  height: 50%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .full-width {
+    width: 100% !important;
+  }
+  .images--cont {
+    width: 100%;
+    height: 35vw;
+    border-radius: 10px;
+  }
+  .image--slider {
+    height: 100%;
+  }
+
+  .upload--btn {
+    height: inherit;
+    width: 35vw;
+  }
+  .upload--btn img {
+    width: 24px;
+    height: 24px;
+  }
+  .upload--btn p {
+    font-size: 12px;
+  }
+  .upload--image {
+    height: 100%;
+    width: 35vw;
+  }
+  .upload--image:nth-child(1) {
+    margin-left: calc(35vw + 16px);
+  }
+}

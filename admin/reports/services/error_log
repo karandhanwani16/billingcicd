@@ -1,0 +1,14 @@
+[22-Jan-2023 11:31:15 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php on line 17
+[22-Jan-2023 11:31:21 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/reports/services/getDebitNoteMainReport.php on line 17
+[24-Jan-2023 07:37:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php on line 74
+[24-Jan-2023 07:38:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php on line 74
+[24-Jan-2023 07:38:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/yashcons/public_html/billing/admin/reports/services/getInvoiceMainReport.php on line 74

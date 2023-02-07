@@ -1,0 +1,28 @@
+.view--table {
+    margin-top: 48px;
+    border-collapse: collapse;
+}
+
+.view--table td, .view--table th {
+    padding: 6px 16px;
+}
+
+.view--table th {
+    text-align: left;
+    background: #222;
+    color: #fff;
+}
+
+.view--table tfoot td {
+    background: #444;
+    color: #fff;
+}
+
+
+.view--table tr:nth-child(even) {
+    background: #e1e1e1;
+}
+
+.view--table tr:nth-child(odd) {
+    background: #fff;
+}

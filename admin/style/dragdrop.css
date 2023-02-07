@@ -1,0 +1,30 @@
+.drag-drop-main-cont {
+    margin: 24px 0;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: plum; */
+}
+
+.not-include-list,
+.include-list {
+    height: 70vh;
+    width: calc(50% - 32px);
+    border: 1px solid #222;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.brand {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2%;
+    background: plum;
+    text-transform: capitalize;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}

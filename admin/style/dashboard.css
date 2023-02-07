@@ -1,0 +1,54 @@
+.dasboard--main--cont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 24px 0;
+}
+
+
+/* .col {
+    flex-direction: column;
+}
+ */
+
+.col .table--view--main--cont,
+.col .graph--view--main--cont {
+    width: calc(50% - 32px);
+    height: 100%;
+}
+
+.table--view--main--cont,
+.graph--view--main--cont {
+    width: calc((100% / 3) - 16px);
+}
+
+.table--view--main--cont table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.graph--cont,
+.graph--cont canvas {
+    width: 100%;
+}
+
+.row-2 {
+    margin-top: 40px;
+}
+
+.table--view--main--cont table td,
+.table--view--main--cont table th {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.table--view--main--cont table th {
+    background: #444;
+    color: #eee;
+}
+
+.table--view--main--cont table td {
+    background: #eee;
+}

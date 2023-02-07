@@ -1,0 +1,275 @@
+.viewport {
+    background: palegreen;
+}
+
+form {
+    width: 100%;
+}
+
+.full-width-row {
+    width: 100%;
+}
+
+.full-width-table {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+}
+
+.t-head {
+    background: var(--gray-5);
+}
+
+.t-head th {
+    border-collapse: collapse;
+    border: none;
+    padding: 8px 0px;
+    color: var(--white-color);
+}
+
+
+/* table .inp,
+table .ddl {
+    background: #fff;
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+} */
+
+.invoice-products-body {
+    width: 100%;
+    height: 50vh !important;
+    overflow-y: auto;
+}
+
+.add-row {
+    border-radius: 7.5px;
+    padding: 8px 20px;
+    background: var(--gray-5);
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.add-row:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+tbody td {
+    padding: 6px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+tbody td:nth-last-child(2) {
+    padding-left: 0px;
+}
+
+.delete-btn,
+.edit-btn,
+.save-btn,
+.cancel-btn {
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--white-color);
+}
+
+.delete-btn {
+    background-color: var(--danger-color);
+}
+
+.cancel-btn {
+    margin-top: 6px;
+    background-color: var(--danger-color);
+}
+
+.edit-btn {
+    margin-top: 6px;
+    background-color: var(--warning-color);
+}
+
+.save-btn {
+    background-color: var(--success-color);
+}
+
+.delete-btn:hover,
+.edit-btn:hover,
+.save-btn:hover, .cancel-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.add-row,
+.delete-btn,
+.save-btn,
+.cancel-btn,
+.edit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-table td {
+    width: calc(100% / 5);
+}
+
+.label {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.data {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--gray-5);
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 28px;
+    border-radius: 15px;
+    background-color: var(--white-color);
+    border: 0.75px solid var(--light-color-a);
+    z-index: 99;
+    display: none;
+}
+
+.popup-close-bg {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    display: none;
+}
+
+.popup-close-btn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+
+.popup-close-btn:hover {
+    cursor: pointer;
+}
+
+.popup-heading {
+    font-size: 1.25rem;
+    color: var(--gray-2);
+    font-weight: 700;
+}
+
+.sharing-options {
+    width: 30vw;
+    height: auto;
+    margin-top: 32px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+}
+
+.popup .btn {
+    width: 100%;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.print-btn,
+.add-btn {
+    background-color: var(--danger-color);
+}
+
+.share-btn {
+    background-color: var(--success-color);
+}
+
+#ddlproductname {
+    width: 65%;
+}
+
+.add-btn {
+    width: 30%;
+    margin-top: 12px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+table {
+    margin: 16px 0;
+    width: 100%;
+    border-collapse: collapse;
+    background: none;
+    border: 0px;
+}
+
+th {
+    padding: 12px 0;
+}
+
+td {
+    padding: 4px 0px;
+}
+
+th {
+    margin: 0;
+    border: none;
+    background: var(--gray-2);
+    color: var(--white-color);
+    height: 10% !important;
+    max-height: 10% !important;
+}
+
+td {
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--gray-2);
+}
+
+.salesiteminp,
+.salesmidinp,
+.salespdinp,
+.salesopinp,
+.salesrecinp,
+.salesclosinginp,
+.salesdeinp,
+.salesdninp,
+.damageamountinp,
+.inp {
+    width: 100%;
+    width: 100%;
+    font-weight: 400;
+    font-size: 0.8rem;
+    background: var(--light-color);
+    color: var(--gray-2);
+    border: none;
+    padding: 8px 0;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+.row-4 {
+    width: 100%;
+}
+
+.row-4 .inp-group {
+    width: 25%;
+}
+
+
+.hide-btn {
+    display: none;
+}

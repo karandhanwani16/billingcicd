@@ -1,0 +1,4 @@
+[14-Jan-2023 13:03:10 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/credit_note/credit_noteUpload.php on line 7
+[14-Jan-2023 13:03:10 UTC] PHP Notice:  Undefined index: user_type in /home/yashcons/public_html/billing/admin/credit_note/credit_noteUpload.php on line 8
+[14-Jan-2023 13:04:35 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/credit_note/credit_noteUpload.php on line 7
+[14-Jan-2023 13:04:35 UTC] PHP Notice:  Undefined index: user_type in /home/yashcons/public_html/billing/admin/credit_note/credit_noteUpload.php on line 8

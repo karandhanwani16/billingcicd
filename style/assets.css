@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap");
+:root {
+    /* FFF7EF */
+    /* --primary-color: #f59122;
+  --light-primary: #ffe1bf; */
+    --primary-color: linear-gradient(102.95deg, #c48fd9 6.77%, #e9bba7 100%);
+    /* --light-primary: #dce0ff; */
+    --secondary-color: #2b2b2b;
+    --text-color: #333;
+    --dark-text-color: #1a1a1a;
+    --white-color: #ffffff;
+    --light-color-f: #f2f2f2;
+    --light-color: #eeeeee;
+    --light-color-d: #dddddd;
+    --light-color-c: #cccccc;
+    --light-color-b: #bbbbbb;
+    --light-color-a: #aaaaaa;
+    --gray-2: #2b2b2b;
+    --gray-5: #555555;
+    --gray-6: #666666;
+    --gray-7: #777777;
+    --gray-8: #888888;
+    --gray-9: #999999;
+    --danger-color: #ec3737;
+    --warning-color: #f6d12b;
+    --success-color: #71e083;
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 5%;
+}
+
+body {
+    height: 100vh;
+    padding: 24px 16px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.f-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 16px 22px;
+    text-decoration: none;
+}
+
+.primary-btn {
+    border: none;
+    background: var(--primary-color);
+    box-shadow: var(--primary-shadow);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.strong {
+    margin-left: 4px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.chip {
+    flex-shrink: 0;
+    font-size: 0.6rem;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: var(--light-color);
+    background: var(--primary-color);
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--light-color-f);
+    outline: none;
+}

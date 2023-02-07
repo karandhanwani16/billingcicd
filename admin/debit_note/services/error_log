@@ -1,0 +1,24 @@
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 7
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[22-Nov-2022 18:45:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[26-Nov-2022 11:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/yashcons/public_html/billing/admin/debit_note/services/commonDebitNoteFunctions.php:112
+Stack trace:
+#0 /home/yashcons/public_html/billing/admin/debit_note/services/commonDebitNoteFunctions.php(10): getTableDetails('debit_note_prod...', 'debit_note_id', 6, Object(mysqli))
+#1 /home/yashcons/public_html/billing/admin/debit_note/services/uploadDebitNote.php(90): generateDebitNotePdfHtml(6, Object(mysqli))
+#2 /home/yashcons/public_html/billing/admin/debit_note/services/uploadDebitNote.php(44): generateDebitNotePdf(6, '10', Object(mysqli))
+#3 {main}
+  thrown in /home/yashcons/public_html/billing/admin/debit_note/services/commonDebitNoteFunctions.php on line 112
+[11-Jan-2023 05:35:45 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 7
+[14-Jan-2023 13:04:32 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 7
+[14-Jan-2023 13:04:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[14-Jan-2023 13:04:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[14-Jan-2023 13:04:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[14-Jan-2023 13:04:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[17-Jan-2023 10:11:10 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 7
+[17-Jan-2023 10:11:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[17-Jan-2023 10:11:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[17-Jan-2023 10:11:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136
+[17-Jan-2023 10:11:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/yashcons/public_html/billing/admin/debit_note/services/getDebitNoteData.php on line 136

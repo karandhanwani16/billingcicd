@@ -1,0 +1,9 @@
+[26-Nov-2022 11:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_all() in /home/yashcons/public_html/billing/admin/credit_note/services/commonCreditNoteFunctions.php:112
+Stack trace:
+#0 /home/yashcons/public_html/billing/admin/credit_note/services/commonCreditNoteFunctions.php(10): getTableDetails('credit_note_pro...', 'credit_note_id', '2', Object(mysqli))
+#1 /home/yashcons/public_html/billing/admin/credit_note/services/getCreditNotePdf.php(33): generateCreditNotePdfHtml('2', Object(mysqli))
+#2 /home/yashcons/public_html/billing/admin/credit_note/services/getCreditNotePdf.php(18): generateInvoicePdf('2', '10', Object(mysqli))
+#3 {main}
+  thrown in /home/yashcons/public_html/billing/admin/credit_note/services/commonCreditNoteFunctions.php on line 112
+[11-Jan-2023 05:35:58 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/credit_note/services/getCreditNoteData.php on line 7
+[14-Jan-2023 13:04:36 UTC] PHP Notice:  Undefined index: user_id in /home/yashcons/public_html/billing/admin/credit_note/services/getCreditNoteData.php on line 7

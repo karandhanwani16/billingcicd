@@ -1,0 +1,21 @@
+.table-row {
+    width: 100%;
+    background: #eee;
+}
+
+.table-row table {
+    width: 100%;
+    margin-bottom: 24px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px 8px;
+    background: #232232;
+    color: #fff;
+    text-align: left;
+}
+
+td {
+    padding: 8px 6px;
+}

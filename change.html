@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.95rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        body {
+            padding: 24px;
+            padding-top: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table.header {
+            width: 100%;
+        }
+
+        td {
+            padding: 2px;
+        }
+
+        .header-label {
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+        }
+
+        .header-data {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <table style='padding-top: 16px;padding-bottom: 8px;width:100%;'>
+        <tr>
+            <td style='width: 33%;text-align:center;'></td>
+            <td style='width: 33%;text-align:center;'>
+                <h3>Tax Invoice</h3>
+            </td>
+            <td style='width: 33%;text-align:center;'>
+                <p>(DUPPLICATE FOR SUPPLIER)</p>
+            </td>
+        </tr>
+    </table>
+    <table style='border:1px solid #000;' class='header'>
+        <tr>
+            <td rowspan='2' style='width: 50%;border-right:1px solid #000;border-bottom:1px solid #000;'>
+                <p> <b>YASH CONSUMER PRODUCTS PVT. LTD</b> </p>
+                <p>Shop No. 1. Margashirsh Bldg, Ramwdi, Below Chirayu Hospital Manpada, Dombivli - East, Thane</p>
+                <p> GSTIN/UIN: 27AABCY4016E1ZL </p>
+                <p> State Name: Maharastra </p>
+                <p> Code: 27 </p>
+            </td>
+            <td style='border-bottom:1px solid #000;border-right:1px solid #000;'>
+                <div class='header-label'>Invoice No.</div>
+                <div class='header-data'>14/2022-1970</div>
+            </td>
+            <td style='border-bottom:1px solid #000;'>
+                <div class='header-label'>Dated</div>
+                <div class='header-data'>26-Aug-22</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan='2' style='border-bottom:1px solid #000;'>
+                <div class='header-label'>PO No.</div>
+                <div class='header-data'>1223</div>
+            </td>
+        </tr>
+        <tr>
+            <td style='width: 50%;border-right:1px solid #000;'>
+                <p>Buyer (Bill to)</p>
+                <p> <b>SUN PHARMACEUTICAL INDUSTRIES LTD.</b> </p>
+                <p>SUN HOUSE PLOT NO. 201/B1 WETERN EXPRESS HIGHWAY, GOREGAON (E) MUMBAI - 400 063</p>
+                <p> GSTIN/UIN : 27AADCS3124K2ZC </p>
+                <p> PAN/IT NO: AADCS3124K </p>
+                <p> State Name: Maharastra </p>
+                <p> Code: 27 </p>
+                <p> Place of Supply: Maharastra </p>
+            </td>
+            <td colspan='2' style='border-bottom: 1px solid #000;border-right: 1px solid #000;'>
+                <p style='margin-bottom:12px;'><b>Reference</b></p>
+                <p>
+                <ul>
+                    <li>this is sample: 1234</li>
+                    <li>this is sample 2: 123412456</li>
+                </ul>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table
+        style='max-width: 100%;min-width: 100%;border-left: 1px solid #000;border-right: 1px solid #000;min-height: 320px;'>
+        <tr>
+            <th style='border-bottom: 1px solid #000;border-right: 1px solid #000; width:5%;'>Sr No.</th>
+            <th style='border-bottom: 1px solid #000;border-right: 1px solid #000; width:65%;'>Particulars</th>
+            <th style='border-bottom: 1px solid #000;border-right: 1px solid #000;'>HSN/SAC</th>
+            <th style='border-bottom: 1px solid #000;'>Amount</th>
+        </tr>
+        <tbody style='border-bottom: 1px solid #000;'>
+            <tr>
+                <td style='border-right: 1px solid #000;vertical-align: top;text-align:center;'>1</td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;'>
+                    <p><b>Service Charges</b></p>
+                    <p>
+                    <ul>
+                        <li>Primary Billing FEB'22</li>
+                    </ul>
+                    </p>
+                    <p>VALUE:- 29515841.34/-</p>
+                    <p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    </p>
+                </td>
+                <td style='border-right: 1px solid #000;vertical-align: top;text-align:center;'>998599</td>
+                <td style='vertical-align: top;text-align:right;'>29,515,841.34</td>
+            </tr>
+            <tr>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;text-align: right;'> CGST </td>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='text-align:right;'>2,656,425.72</td>
+            </tr>
+            <tr>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;text-align: right;'> SGST </td>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='text-align:right;'>2,656,425.72</td>
+            </tr>
+            <tr>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;text-align: right;'> IGST </td>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='text-align:right;'>0.00</td>
+            </tr>
+            <tr>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;text-align: left;'> less: <b>Round Off</b>
+                </td>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='text-align:right;'>0.22</td>
+            </tr>
+        </tbody>
+        <tfoot style='border-bottom: 1px solid #000;'>
+            <tr>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='border-right: 1px solid #000;padding: 2px 18px;text-align: right;'> Total </td>
+                <td style='border-right: 1px solid #000;'></td>
+                <td style='text-align:right;'>Rs. 34,828,693.00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table
+        style='min-width: 100%;border-left: 1px solid #000;border-right: 1px solid #000;border-bottom: 1px solid #000;'>
+        <tr>
+            <td style='width: 35%;text-align: left;'>Amount Chargeable (In words)</td>
+            <td style='width: 65%;text-align: right;'>E. & O.E</td>
+        </tr>
+        <tr>
+            <td colspan='2'>
+                <p><b>INR Three crore forty eight lakhs twenty eight thousands six hundred and ninety three </b></p>
+            </td>
+        </tr>
+    </table>
+    <table
+        style='font-size: 0.8rem; width: 100%;border-left: 1px solid #000;border-right: 1px solid #000;border-bottom: 1px solid #000;'>
+        <tr style='border-bottom: 1px solid #000;'>
+            <td rowspan='2' style='width: 50%; border-right: 1px solid #000;border-bottom: 1px solid #000;'>HSN/SAC</td>
+            <td rowspan='2' style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Taxable Value</td>
+            <td colspan='2' style='border-bottom: 1px solid #000;border-right: 1px solid #000;'>Central Tax</td>
+            <td colspan='2' style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>State Tax</td>
+            <td colspan='2' style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Interstate Tax</td>
+            <td style='border-bottom: 1px solid #000;' rowspan='2'>Total Tax Amount</td>
+        </tr>
+        <tr style='border-bottom: 1px solid #000;'>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Rate</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Amount</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Rate</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Amount</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Rate</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>Amount</td>
+        </tr>
+        <tr style='border-bottom: 1px solid #000;'>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>998599</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>29,515,841.34</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>9%</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>2,656,425.72</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>9%</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>2,656,425.72</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>0%</td>
+            <td style='border-right: 1px solid #000;border-bottom: 1px solid #000;'>0.00</td>
+            <td style='border-bottom: 1px solid #000;'>5,312,851.44</td>
+        </tr>
+        <tr style='border-bottom: 1px solid #000;'>
+            <td style='border-right: 1px solid #000;'>Total</td>
+            <td style='border-right: 1px solid #000;'>29,515,841.34</td>
+            <td style='border-right: 1px solid #000;'></td>
+            <td style='border-right: 1px solid #000;'>2,656,425.72</td>
+            <td style='border-right: 1px solid #000;'></td>
+            <td style='border-right: 1px solid #000;'>2,656,425.72</td>
+            <td style='border-right: 1px solid #000;'></td>
+            <td style='border-right: 1px solid #000;'>0.00</td>
+            <td>5,312,851.44</td>
+        </tr>
+    </table>
+    <table style='width: 100%;border-left: 1px solid #000;border-right: 1px solid #000;'>
+        <tr>
+            <td style='padding:20px 0;'>
+                <p>Tax Amount (in words) : </p>
+            </td>
+            <td>
+                <p><b>INR Fifty three lakhs twelve thousands eight hundred and fifty one </b></p>
+            </td>
+        </tr>
+    </table>
+    <table style='width: 100%;border-left: 1px solid #000;border-bottom: 1px solid #000;border-right: 1px solid #000;'>
+        <tr>
+            <td style='border-left: 1px solid #000;border-top: 1px solid #000;border-right: 1px solid #000;width: 65%;border-bottom: 1px solid #000;'
+                rowspan='4'>
+                <p style='text-align:right;'> <b> for YASH CONSUMER PRODUCTS PVT. LTD </b> </p>
+                <p style='text-align: right;margin-top: 48px;'> Authorised Signatory </p>
+            </td>
+
+            <td style='width: 50%;padding-left: 16px;'>
+                <p>Company's Bank Details:</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 16px;">
+                <p>Bank Name: </p>
+            </td>
+            <td>
+                <p>ICICI Bank - 100005004916</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 16px;">
+                <p>A/c No.: </p>
+            </td>
+            <td>
+                <p>ICICI 100005004916</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 16px;">
+                <p>Branch & IFS Code: </p>
+            </td>
+            <td>
+                <p>Teenhathnaka&ICIC0001000</p>
+            </td>
+        </tr>
+    </table>
+    <p style='width: 100%;text-align: center;margin-top: 12px;'>This is Computer Generated Invoice</p>
+</body>
+
+</html>
